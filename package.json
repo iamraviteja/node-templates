@@ -1,0 +1,22 @@
+{
+  "name": "templates",
+  "version": "1.0.0",
+  "description": "<a name=\"readme-top\"></a>",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src",
+    "ssr": "node ./express-app",
+    "ssr:watch": "nodemon --watch express-app ./express-app/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "socket.io": "^4.7.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.1"
+  }
+}
